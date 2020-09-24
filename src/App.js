@@ -1,11 +1,14 @@
 import React from "react";
 import "./styles.css";
-
+import Username from "./Component/HelloWorld"
+import Welcome from "./Component/ClassComponent"
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Username name="Sharavni" surname="magar"/>
+      <Username name="Shaurya"/>
+      <Username name="Samarth"/>
+     <Welcome/>
     </div>
   );
 }
